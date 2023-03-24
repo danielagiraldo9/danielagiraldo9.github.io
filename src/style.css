@@ -1,0 +1,134 @@
+h1 {
+    color: #d98283;
+}
+
+body {
+    background-color: bisque;
+    text-align: center;
+    margin: 20px;
+    font-family: cursive;
+    
+}
+
+div {
+    background-image: url("https://images.pexels.com/photos/776635/pexels-photo-776635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    margin: 30px;
+    padding: 20px;
+}
+
+p {
+    font-size: larger;
+}
+
+#userName {
+    background-color:blanchedalmond;
+    font-size: large;
+    border: 1px solid coral;
+}
+
+#btn1 {
+    background-color: red;
+    font-size: large;
+    border-radius: 100px;
+
+}
+
+#btnCifrar {
+    display:none;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin-left: 300px;
+    background-color: red;
+    border-radius: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+#btnDescifrar {
+    display:none;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin-left: 600px;
+    margin-top: -50px;
+    background-color: red;
+    border-radius: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+#posicionesCifrar {
+    background-color:blanchedalmond;
+    font-size: large;
+    border: 1px solid coral;
+    width: 40px;
+}
+
+#msgEncode {
+    background-color:blanchedalmond;
+    font-size: large;
+    border: 1px solid coral;
+}
+
+#posDecodificar {
+    background-color:blanchedalmond;
+    font-size: large;
+    border: 1px solid coral;
+    width: 40px;
+}
+
+#msgToDecode {
+    background-color:blanchedalmond;
+    font-size: large;
+    border: 1px solid coral;
+}
+
+#root {
+    display:block;
+}
+
+#cifrar {
+    display:none;
+}
+
+#descifrar {
+    display:none;
+}
+
+#codificarMensaje {
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border-radius: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+#decodificarMensaje {
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border-radius: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+.inicio {
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: navajowhite;
+    border-radius: 6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    margin-left: 900px;
+    border-radius: 100px;
+}

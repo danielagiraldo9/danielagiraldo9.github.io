@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div id="root">
+      <h1>Bienvenido a couplecode</h1>
+      <img src="./enamorados.png" alt="enamorados" width="300">
+      <p><strong>En este sitio podrás cifrar y descifrar mensajes para tu enamorado secreto.</strong></p>
+      <input type="text" id="userName" placeholder="Ingresa tu nombre" maxlength="20">
+      <button id="btn1" type="button">Continue</button>
+      <br><br>
+      <h3 id="saludo"></h3>
+      <input id="btnCifrar" type="button" value="Cifrar">
+      <input id="btnDescifrar" type="button" value="Descifrar">
+      <br><br>
+    </div>
+    <div id="cifrar">
+      <h2>Ingresa el número de posiciones para cifrar tu mensaje!!</h2>
+      <input type="number" min="1" id="posicionesCifrar">
+      <h1>Escribe tu mensaje en mayúscula</h1>
+      <input type="text" id="msgEncode">
+      <br>
+      <h1 id="msgCiphered"></h1>
+      <br>
+      <input type="button" value="Codificar mensaje" id="codificarMensaje">
+      <br><br>
+      <input type="button" value="Volver al inicio" class="inicio" id="volverInicio1">
+    </div>
+    <div id="descifrar">
+      <h2>Ingresa el número de posiciones para descifrar tu mensaje!!</h2>
+      <input type="number" min="1" id="posDecodificar">
+      <h1>Escribe tu mensaje en mayúscula</h1>
+      <input type="text" id="msgToDecode">
+      <br>
+      <h1 id="msgDecoded"></h1>
+      <input type="button" value="Decodificar mensaje" id="decodificarMensaje">
+      <br><br>
+      <input type="button" value="Volver al inicio" class="inicio" id="volverInicio2">
+    </div>
+    <footer>
+      <p>Made by Daniela Giraldo Jimenez</p>
+    </footer>
+  <script src="./index.js" type="module"></script>
+  </body>
+</html>
